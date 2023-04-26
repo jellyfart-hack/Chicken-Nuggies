@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="canonical" href="https://glitch-hello-website.glitch.me/" />
+    <meta
+      name="description"
+      content="A simple website, built with Glitch. Remix it to get your own."
+    />
+    <meta name="robots" content="index,follow" />
+    <meta property="og:title" content="Hello World!" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://glitch-hello-website.glitch.me/" />
+    <meta
+      property="og:description"
+      content="A simple website, built with Glitch. Remix it to get your own."
+    />
+    <meta
+      property="og:image"
+      content="https://cdn.glitch.com/605e2a51-d45f-4d87-a285-9410ad350515%2Fhello-website-social.png?v=1616712748147"
+    />
+    <meta name="twitter:card" content="summary" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/chickenhotmama.ico" />
+    <title>Your Nuggies</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: "Montserrat", sans-serif;
+        background-color: #e8e8e8;
+        display: grid;
+        grid-template-rows: auto 1fr auto;
+        min-height: 100vh;
+      }
+      header {
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      h1 {
+        margin: 0;
+        font-size: 36px;
+      }
+      nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+      }
+      nav li {
+        margin-right: 20px;
+      }
+      nav a {
+        color: #fff;
+        text-decoration: none;
+        font-weight: bold;
+        transition: all 0.2s ease-in-out;
+      }
+      nav a:hover {
+        color: #ffc107;
+        transform: scale(1.1);
+      }
+      main section {
+        padding: 20px;
+        margin: 20px;
+        border: 1px solid #333;
+        background-color: #fff;
+      }
+      h2 {
+        margin-top: 0;
+      }
+      div {
+        background-color: #f2f2f2;
+        padding: 10px;
+        margin: 10px 0;
+        border: 1px solid #ccc;
+      }
+      .emphasis {
+        font-style: italic;
+      }
+      .important {
+        font-weight: bold;
+        color: red;
+      }
+      footer {
+        background-color: #546;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+        grid-row-start: 3;
+        grid-row-end: 4;
+      }
+      .bg-gradient {
+        background: linear-gradient(to bottom right, #ff99cc, #ffcc99);
+      }
+      .section-image {
+        background-image: url("https://images7.memedroid.com/images/UPLOADED139/5603efccd6d33.jpeg");
+        background-size: cover;
+        background-position: center;
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .section-image h2 {
+        color: #fff;
+        font-size: 48px;
+        text-shadow: 2px 2px #333;
+        margin-bottom: 0;
+        text-align: center;
+        animation: slideIn 1s ease-in-out;
+        animation-fill-mode: forwards;
+        animation-delay: 1s;
+      }
+      @keyframes slideIn {
+        from {
+          transform: translateX(-100%);
+        }
+        to {
+          transform: translateX(0);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Chicken Nuggies</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Hotmama</a></li>
+          <li><a href="#">Chickenhub</a></li>
+          <li><a href="#">Yourpoopoo</a></li>
+        </ul>
+        <form action="#">
+          <button>Butter your chick</button>
+        </form>
+      </nav>
+    </header>
+  </body>
+</html>

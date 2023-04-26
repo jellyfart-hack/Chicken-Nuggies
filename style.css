@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Your Nuggies</title>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+	<style>
+		body {
+			font-family: 'Montserrat', sans-serif;
+			background-color: #e8e8e8;
+		}
+		header {
+			background-color: #333;
+			color: #fff;
+			padding: 20px;
+		}
+		h1 {
+			margin: 0;
+		}
+		nav ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			display: flex;
+		}
+		nav li {
+			margin-right: 20px;
+		}
+		nav a {
+			color: #fff;
+			text-decoration: none;
+			font-weight: bold;
+		}
+		main section {
+			padding: 20px;
+			margin: 20px;
+			border: 1px solid #333;
+			background-color: #fff;
+		}
+		h2 {
+			margin-top: 0;
+		}
+		div {
+			background-color: #f2f2f2;
+			padding: 10px;
+			margin: 10px 0;
+			border: 1px solid #ccc;
+		}
+		.emphasis {
+			font-style: italic;
+		}
+		.important {
+			font-weight: bold;
+			color: red;
+		}
+		footer {
+			background-color: #333;
+			color: #fff;
+			padding: 20px;
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<h1>Chicken Nuggies</h1>
+		<nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section>
+			<h2>Introduction</h2>
+			<p>My Chicken nuggies are Jelly farts</p>
+		</section>
+		<section>
+			<h2>Heading 2</h2>
+			<p>My Chicken nuggies are Farts in poop dip</p>
+			<div>
+				<h3>Subheading</h3>
+				<p>Poop dips are not good</p>
+				<p class="emphasis">Because my mama is hot chick</p>
+				<p class="important">You dont mess with me</p>
+			</div>
+		</section>
+	</main>
+	<footer>
+		<p>&copy; 2023 My Company</p>
+	</footer>
+	<a href="https://www.chickennuggieshotmama.com"><img src="https://images7.memedroid.com/images/UPLOADED139/5603efccd6d33.jpeg" alt="Example Image"></a>
+</body>
+</html>
